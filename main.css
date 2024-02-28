@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.press-start  {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+.play-regular {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  ul li {
+    text-decoration: none;
+  }
+body {
+    width:100%;
+    margin: auto;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*bg colors,#0044BC,#0D47A1, #004D40, #F57F17,   */
+header {
+    padding: 16px;
+    background-color: #0044BC;
+    align-items: flex-start;
+}
+.container header h1 {
+   font-size: 26px;
+}
+
+header .container ul li {
+    display: inline;
+    font-family: 'Press Start 2P';
+}
+header .container ul li a {
+    text-decoration: none;
+    color: #F57F17;
+    font-size: 14px;
+    margin: 2px;
+}
+header .container ul li a:hover {
+ color: #f0a360;
+}
+h1 {
+    color:#F57F17 ;
+    font-family: 'Press Start 2P';
+}
+section header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section header ul li {
+    display: inline;
+    align-items: center;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container img {
+    max-width: 500px;
+    max-height: 650px;
+    padding: 8px;
+}
+
+section .container p {
+    font-family: 'Play';
+    font-size: 16px;
+}
+ h2{
+    color: #4A148C;
+    font-size: 16px;
+    font-family: 'Press Start 2P';
+   }
+/*
+#sobre .container .container h2{
+ color: #4A148C;
+ font-size: 26px;
+}
+*/
+
+#sobre .container .container {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+#historia .container .container {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+#dicas .container .container {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+#curiosidades .container .container {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+#contato .container {
+    display: flexbox;
+    margin: auto;
+}
+
+section .container p {
+    padding: 8px;
+    margin: 8px;
+    
+}
+
+#historia .container .container {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+#contato .container {
+    display: flexbox;
+    
+    justify-content:center ;
+}
+#game-play .container {
+    display: flexbox;
+    padding: 8px;
+
+}
+
+#game-play .container .container {
+    display: block;
+    text-align: center;
+    width: 50%;
+}
+
+#contato .container form button {
+    background-color: #4A148C;
+    border-color: #4A148C;
+    height: 30px;
+}
+#contato .container form button:hover {
+    background-color: #5503b9;
+    border-color: #bd8ff5;
+    height: 30px;
+    color: #F57F17;
+}
+form textarea {
+    resize: none;
+}
+form input, form textarea, form button {
+    display: block;
+    width: 400px;
+    margin: 8px;
+    border-radius: 5px;
+
+}
+form input {
+    height: 30px;
+}
+form button {
+    color: #F57F17;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer .container ul li img {
+    width: 26px;
+    margin: 5px;
+    
+}
+footer .container ul li {
+    display: inline;
+}
+footer .container ul li a {
+   text-decoration: none;
+}
+footer .container  {
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+}
+footer {
+    display: flex;
+    
+}
